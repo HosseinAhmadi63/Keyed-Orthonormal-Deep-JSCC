@@ -1,0 +1,16 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+outputs/
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+data/cifar10_arrays.npz
+*.pt
+*.pth
+*.ckpt

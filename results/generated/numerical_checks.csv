@@ -1,0 +1,5 @@
+analysis,reference_values_checked,maximum_absolute_error
+matched_codecs,192,0.0
+ssim_definitions,275,1.1102230246251565e-16
+kodak_source_images,30,0.0
+equal_transmission_resources,176,0.0

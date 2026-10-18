@@ -1,0 +1,7 @@
+case,seed,defense_weight,selected_epoch,selected_classifier,selected_reconstructor
+seed1001_lambda0,1001,0.0,30,invariant_surrogate_61,cnn_large_surrogate_no_nonce
+seed1001_lambda0.2,1001,0.2,30,invariant_surrogate_61,cnn_large_surrogate_no_nonce
+seed1002_lambda0,1002,0.0,29,invariant_surrogate_62,cnn_large_surrogate_no_nonce
+seed1002_lambda0.2,1002,0.2,29,deepsets_surrogate,cnn_large_surrogate_no_nonce
+seed1003_lambda0,1003,0.0,29,invariant_surrogate_61,cnn_large_surrogate_no_nonce
+seed1003_lambda0.2,1003,0.2,29,invariant_surrogate_62,cnn_large_surrogate_no_nonce

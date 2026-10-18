@@ -1,0 +1,50 @@
+{
+  "experiment": "keyed_orthonormal_jscc",
+  "seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "defense_weights": [
+    0.0,
+    0.2
+  ],
+  "codec_epochs": 30,
+  "codec_batch": 128,
+  "codec_lr": 0.0002,
+  "online_classifier_steps": 2,
+  "attacker_epochs": 30,
+  "attacker_patience": 8,
+  "attacker_batch": 256,
+  "classifier_raw_seeds": [
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "invariant_seeds": [
+    61,
+    62
+  ],
+  "reconstruction_mlp_seeds": [
+    71,
+    72,
+    73
+  ],
+  "reconstruction_cnn_seeds": [
+    81
+  ],
+  "snr_bob_db": 12.0,
+  "snr_eve_db": 20.0,
+  "repeat_keys": 3,
+  "repeat_noise_draws": 3,
+  "split_seed": 20261015,
+  "validation_per_class": 500,
+  "holdout_start": 6400,
+  "latent_n": 256,
+  "threads": 8,
+  "amp_bfloat16": true,
+  "bootstrap_samples": 2000,
+  "max_return_part_bytes": 110000000
+}

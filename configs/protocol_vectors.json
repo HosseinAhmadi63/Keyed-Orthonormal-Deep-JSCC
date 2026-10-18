@@ -1,0 +1,168 @@
+{
+  "protocol": "JSCC-ORTHO-HKDF-AESCTR-v1",
+  "example_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "example_nonce_hex": "000102030405060708090a0b",
+  "example_key_is_public_and_for_tests_only": true,
+  "domain_hex": "4a5343432d4f5254484f2d484b44462d4145534354522d763100",
+  "labels": [
+    "sign1",
+    "sign2",
+    "permutation"
+  ],
+  "vectors": [
+    {
+      "dimension": 16,
+      "materials_hex": {
+        "sign1": "a0f5fc0408be1a3cb72ac264409cce8ad20169d40ccc123f2149e86fe19fafaf4ffe387d74c6d3a7c312e99405dd24b2",
+        "sign2": "a5d8c3cab915a04b297df749cbbb9ecf564cdae68a1e78699779a89483b55cc95818bcb164c81fa184f777e0003070b2",
+        "permutation": "fcfe3b66f4509b0ba2008240f47651db27c219eb736a104597d9db19cf51c4decbffb838744dc99eedcb0f80afa5a71c"
+      },
+      "stream_first32_hex": {
+        "sign1": "c6e83733034f3ac41e94ca58ccb5ed8370a3ded744e6ed262a9cf66add4b9884",
+        "sign2": "e381a9d6314b12322162790c68699e3fe05c9d033bc9dba3be1a85d310e4b76b",
+        "permutation": "c87be6012035e3feaf6a6f09e76fe4beae9b7bf7733e6288190200ed72a8b527"
+      },
+      "parameters_sha256": "2d66d517f2587d623a0590b8a7f2def9af43b5106337e530842b36690dbf4aca",
+      "output_float64_be_sha256": "5d70e9b6cc625d33959b29d610c68a2d1560ccc23a05d729ceeb316fccb4407f",
+      "sign1": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "sign2": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "permutation": [
+        12,
+        5,
+        13,
+        6,
+        2,
+        4,
+        8,
+        0,
+        10,
+        9,
+        15,
+        3,
+        14,
+        7,
+        11,
+        1
+      ],
+      "inverse_permutation": [
+        7,
+        15,
+        4,
+        11,
+        5,
+        1,
+        3,
+        13,
+        6,
+        9,
+        8,
+        14,
+        0,
+        2,
+        12,
+        10
+      ],
+      "input": [
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375
+      ],
+      "output": [
+        -0.65625,
+        0.15625,
+        0.03125,
+        0.53125,
+        1.03125,
+        0.78125,
+        -0.15625,
+        0.28125,
+        -0.40625,
+        -0.78125,
+        -0.84375,
+        0.09375,
+        -0.21875,
+        0.59375,
+        0.03125,
+        -0.65625
+      ]
+    },
+    {
+      "dimension": 256,
+      "materials_hex": {
+        "sign1": "e7a75fa1ad3ad388acf9560a61b6e23c2dd09f60f62eb1112f00339e36be93985ab2af742e62418c6a6701944b5ca0f6",
+        "sign2": "1fc36b8efbae5892da2632c123634f36f7062fe7de4e4e4f3211471a6d22512449bdf718d4655a9623aac20f26865bfd",
+        "permutation": "d56fe001dac6f3e5c54139b98d808082902f1464633329c67d816b510ecdfc58695529ffe5b05269527b75876044a126"
+      },
+      "stream_first32_hex": {
+        "sign1": "e98eaaa4b1d9291d2ea269e2706aa9270eb3f1829d4f37f3a68e5e45581a54aa",
+        "sign2": "09699beac18b4e54b2ee26ff51a81a72e3ac2198a1f7be352a329351de4c6804",
+        "permutation": "23becc172cfcca9d2744baf4750bb1a07e85c1472b5be3f2c6d9561b5437c5d3"
+      },
+      "parameters_sha256": "33abbd6eb890944b11caacedb4bc278d63a47c01c712f4e6807900f9881ac6bd",
+      "output_float64_be_sha256": "150af9f41a712a918536586d623201526d91ae037e24a1ff613de9e3b8351b49"
+    }
+  ],
+  "validation": {
+    "protocol": "JSCC-ORTHO-HKDF-AESCTR-v1",
+    "passed": true,
+    "primitive_tests": [
+      "RFC5869-A.1",
+      "NIST-SP800-38A-F.5.5-four-blocks"
+    ],
+    "inversion_max_absolute_error": {
+      "float32": 4.172325134277344e-07,
+      "float64": 8.881784197001252e-16
+    },
+    "fourth_moment_limitation": {
+      "basis_latent": 256.0,
+      "two_basis_latent": 512.0000000000001
+    }
+  }
+}

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keyed-orthonormal-deep-jscc"
+version = "1.0.0"
+description = "Keyed orthonormal latent transforms and reproducible wireless image transmission experiments."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = {text = "MIT"}
+authors = [
+  {name = "Hossein Ahmadi"},
+  {name = "Fatemeh Hashemi"},
+  {name = "Amirhossein Ahmadi"},
+  {name = "Ali Kuhestani"}
+]
+dependencies = ["numpy>=2.2,<3", "matplotlib>=3.10,<4", "cryptography>=44,<51"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+train = ["torch==2.8.0", "torchvision==0.23.0", "Pillow>=11,<13", "scipy>=1.15,<2", "scikit-learn>=1.6,<2", "threadpoolctl>=3.6,<4"]
+
+[project.urls]
+Repository = "https://github.com/HosseinAhmadi63/Keyed-Orthonormal-Deep-JSCC"
+
+[project.scripts]
+keyed-jscc-analyze = "keyed_jscc.analysis:main"
+keyed-jscc-train = "keyed_jscc.runner:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

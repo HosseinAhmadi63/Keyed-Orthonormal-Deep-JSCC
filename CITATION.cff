@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software when using its implementation or numerical records."
+type: software
+title: "Keyed Orthonormal Deep JSCC"
+authors:
+  - family-names: Ahmadi
+    given-names: Hossein
+  - family-names: Hashemi
+    given-names: Fatemeh
+  - family-names: Ahmadi
+    given-names: Amirhossein
+  - family-names: Kuhestani
+    given-names: Ali
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/HosseinAhmadi63/Keyed-Orthonormal-Deep-JSCC"

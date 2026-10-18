@@ -1,0 +1,6 @@
+snr_db,frames,wrong_headers,crc_detected_failures,undetected_wrong_metadata
+0,10000,9962,9962,0
+3,10000,5425,5425,0
+6,10000,138,138,0
+9,10000,0,0,0
+12,10000,0,0,0
