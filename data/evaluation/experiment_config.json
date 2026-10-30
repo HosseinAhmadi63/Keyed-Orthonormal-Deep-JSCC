@@ -1,0 +1,277 @@
+{
+  "attacks": {
+    "attribute_epochs": 60,
+    "attribute_seeds": [
+      841,
+      842
+    ],
+    "batch_size": 256,
+    "budget_epochs": [
+      30,
+      60,
+      120
+    ],
+    "budget_seeds": [
+      811,
+      812
+    ],
+    "classifier_width": 512,
+    "cnn_channels": 256,
+    "control_fit_epochs": 30,
+    "controls": [
+      "identity",
+      "fixed_transform"
+    ],
+    "deepsets_width": 64,
+    "extended_cases": [
+      "seed1001_lambda0",
+      "seed1001_lambda0.2"
+    ],
+    "high_snr_epochs": 60,
+    "high_snr_keys": 3,
+    "high_snr_noise_draws": 2,
+    "high_snr_seeds": [
+      821
+    ],
+    "high_snr_values": [
+      20.0,
+      30.0,
+      40.0,
+      "noiseless"
+    ],
+    "multi_observation_counts": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "multi_observation_epochs": 60,
+    "multi_observation_seeds": [
+      831
+    ],
+    "primary_epochs": 30,
+    "primary_patience": 0,
+    "primary_spec_names": null,
+    "record_training_timings": true,
+    "save_full_predictions": true,
+    "standardization_max_images": 12000,
+    "tasks": [
+      "metric_alignment",
+      "budget",
+      "high_snr",
+      "multi_observation",
+      "attributes"
+    ],
+    "validation_batch_size": 128
+  },
+  "baseline_cases": [
+    "seed1001_lambda0",
+    "seed1001_lambda0.2"
+  ],
+  "baselines": {
+    "aes_modulation": 16,
+    "aes_quantizer_bits": [
+      4,
+      8
+    ],
+    "attacker_batch_size": 256,
+    "attacker_epochs": 40,
+    "attacker_seed": 991,
+    "attacker_width": 512,
+    "bfv_ct_mod": 4093,
+    "bfv_error_std": 1.0,
+    "bfv_modulation": 4096,
+    "bfv_n1": 192,
+    "bfv_n2": 192,
+    "bfv_pt_mod": 16,
+    "case_names": [
+      "seed1001_lambda0.2"
+    ],
+    "enabled": true,
+    "eve_snr_db": 20.0,
+    "groups": [
+      1,
+      32
+    ],
+    "keyed_header_bits": [
+      128,
+      256
+    ],
+    "keyed_header_repetition": 2,
+    "quantizer_percentiles": [
+      0.1,
+      99.9
+    ],
+    "resource_matched_attack_fitting": true,
+    "snr_db": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "timing_repeats": 10,
+    "total_complex_uses": [
+      640,
+      1024
+    ]
+  },
+  "cases": [
+    "seed1001_lambda0",
+    "seed1001_lambda0.2",
+    "seed1002_lambda0",
+    "seed1002_lambda0.2",
+    "seed1003_lambda0",
+    "seed1003_lambda0.2"
+  ],
+  "channel_cases": [
+    "seed1001_lambda0",
+    "seed1001_lambda0.2",
+    "seed1002_lambda0.2",
+    "seed1003_lambda0.2"
+  ],
+  "channels": {
+    "carrier_hz": 3500000000,
+    "channel_batch": 128,
+    "draws": [
+      0,
+      1,
+      2
+    ],
+    "kpa_counts": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      192,
+      256,
+      512,
+      4096
+    ],
+    "kpa_rcond": 1e-06,
+    "kpa_snr_db": 20,
+    "kpa_subset_seeds": [
+      0,
+      1,
+      2
+    ],
+    "max_test_images": 3600,
+    "max_timing_search_samples": 8,
+    "pilot_symbols": 128,
+    "preamble_symbols": 64,
+    "propagation_delay_samples": 3,
+    "repeat_plaintext_counts": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "rician_k_db": 6.0,
+    "run_kpa": true,
+    "sample_rate_hz": 1000000,
+    "scenarios": [
+      "flat_rayleigh_perfect",
+      "flat_rayleigh_estimated",
+      "flat_rician_perfect",
+      "flat_rician_estimated",
+      "multipath_cfo_perfect",
+      "multipath_cfo_estimated",
+      "multipath_cfo_unsynchronized"
+    ],
+    "snr_db": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      30
+    ],
+    "speed_m_s": 15.0,
+    "tap_delays_samples": [
+      0,
+      1,
+      3
+    ],
+    "tap_power_db": [
+      0.0,
+      -3.0,
+      -6.0
+    ]
+  },
+  "name": "full",
+  "natural": {
+    "attack_seeds": [
+      801,
+      802
+    ],
+    "batch_size": 64,
+    "bob_snr_db": 12.0,
+    "bootstrap_draws": 10000,
+    "download": true,
+    "enabled": true,
+    "epochs": 60,
+    "eve_snr_db": 20.0,
+    "include_nonce": true,
+    "learning_rate": 0.0002,
+    "representative_frame_indices": [
+      0,
+      6,
+      12
+    ],
+    "train_crops": 50000,
+    "train_dir": null,
+    "val_dir": null,
+    "validation_crops": 5000,
+    "width": 64
+  },
+  "natural_cases": [
+    "frozen_seed42",
+    "seed1001_lambda0.2"
+  ],
+  "protocol": {
+    "benchmark_batches": [
+      1,
+      128
+    ],
+    "benchmark_repeats": 40,
+    "groups": [
+      1,
+      8,
+      32,
+      128
+    ],
+    "header_snr_db": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20
+    ],
+    "header_trials": 20000,
+    "replay_window": 4096
+  },
+  "schema_version": 2,
+  "seed": 20261024,
+  "stages": [
+    "attacks",
+    "diagnostics",
+    "channels",
+    "baselines",
+    "natural",
+    "protocol"
+  ],
+  "threads": 8
+}

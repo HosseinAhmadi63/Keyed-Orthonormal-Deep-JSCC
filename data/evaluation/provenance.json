@@ -1,0 +1,178 @@
+{
+  "executed_module_sha256": {
+    "__init__.py": "ffb3a541d6d590ae2369dd022dda48d20ad3fb31006feaa01661f9985cc35e20",
+    "attacks.py": "fdb48f5922241667bc4af28e5499ae6f56c782af91bab333b2bc8ffdcad1613d",
+    "baselines.py": "9405732f6bdd196bbbff23ba0b4387a967451f45b6f16a3dbccc6c1485e4fad8",
+    "channels.py": "84e4c71c3312a397046a95cc0ff0070fbf546beab52287093b45c20640f8847f",
+    "common.py": "f53412b1619d8ad529ef9b0da170c11c4c1ce2080749ccf849e96187a636b940",
+    "data.py": "5cefd58247ffec2141091add6df2cb3d5e6329a8ad67a1135443044a892aca9a",
+    "diagnostics.py": "eed2b4ac40d248cc5c5774ce1eb929b5945d7ced2e4fba018534d607b3710fa2",
+    "natural.py": "693d10463acecae2e7f5f22744cac94a5339f6bdca5b4190aeb6a936c76f324c",
+    "protocol.py": "b7934ea072891bc29519d9f8ed98e0f8af10a7d9108e38f89ffd87e15f63aabe",
+    "runner.py": "95f9e6afaa1ac77484ef65514291d101f6cb5693848c2bd9c2d8bc534d2145e8"
+  },
+  "input_asset_manifest_sha256": "b57054f3f1dd071f1e66d4f6231327e56fe0d5597e4e810f79a1d7242861c5a4",
+  "input_record_sha256": {
+    "RUN_MANIFEST.json": "6979be7b1ce61dff3ed29f2a014f7c8cac37a049dc60962e1ba3276aba5d47f4",
+    "attacks/seed1001_lambda0.2/attributes/summary.json": "0f57acba20b9553585fedab1c60a32f20d09e85fa46b32e47885cf1d054d1958",
+    "attacks/seed1001_lambda0.2/budget/summary.json": "ebdcccabafe15e6673bdab0cb12c4e1bf073d3ab608ce9b864b12e98bac00445",
+    "attacks/seed1001_lambda0.2/high_snr/summary.json": "40965f823fff0a411d4b916b7ed7eb017261ae22216654728b2c3d3ea92cb718",
+    "attacks/seed1001_lambda0.2/metric_alignment/summary.json": "f3730fd8c0d3635b168a70f075c89101a115500d49b995846a82df88f2bc637f",
+    "attacks/seed1001_lambda0.2/multi_observation/summary.json": "b724b1c96009241fc3dfece27d96287d3bf69437564364e5222693501035866d",
+    "attacks/seed1001_lambda0/attributes/summary.json": "ff749eb35167d77eb64f288f9c482a72308e96e487b37a1db2e9e6993a4bd5fe",
+    "attacks/seed1001_lambda0/budget/summary.json": "e645d77f9a722e838022c8f87bd431d294328c7ad563e86bb9b8790b00939476",
+    "attacks/seed1001_lambda0/high_snr/summary.json": "98fe3e2ed249ca0092346fc135dfca0bb9d898107264196c6ba2ac5588a41182",
+    "attacks/seed1001_lambda0/metric_alignment/summary.json": "b203f403e401e43b86879f367bf9c958e847973e39e0a1f2260269e4c5a0c578",
+    "attacks/seed1001_lambda0/multi_observation/summary.json": "d32fd90919e9dc0e5c4f66485d972face994ad7f881642ab667f08a7abbe31cd",
+    "attacks/seed1002_lambda0.2/metric_alignment/summary.json": "16d98dcd76ad5e8cf92475516078e090012bffa9fadb93d08c6ac432f4beb823",
+    "attacks/seed1002_lambda0/metric_alignment/summary.json": "5cfbbf4464fe3e8f221c1c00efaa939cf20a2bf5becdc9200fd7e5a59e4b4782",
+    "attacks/seed1003_lambda0.2/metric_alignment/summary.json": "531c106c5d04c7dc947543a4ae054bc506ce007fef79908b1e955f869e5693b0",
+    "attacks/seed1003_lambda0/metric_alignment/summary.json": "122a8edd515ed3f60e3b48f30d051ec9b9608631e5fe621ba869dec36d89f0a7",
+    "baselines/seed1001_lambda0.2/summary.json": "72dabf55104062b89f7274712dd7b5a4382e42c447c01db720bc2167c8991e41",
+    "baselines/seed1001_lambda0/summary.json": "4f23a403621139531894a2f05d16538c2ac54dc0f7c46152c9986d1e328ea2ce",
+    "channels/seed1001_lambda0.2/summary.json": "a8430861f20f5554cf1ef25b2014f0d2dc25f70a95b54e98e44ef812584c8c42",
+    "channels/seed1001_lambda0/summary.json": "627fd456da082fac64fd272a8b42443624592532dac46b76419ccb1ef83147e9",
+    "channels/seed1002_lambda0.2/summary.json": "fe1af42bd1c21cb5454f8b6263dd4a73ee10007bf2cf6eab344ad6093e2be110",
+    "channels/seed1003_lambda0.2/summary.json": "cf18faafd1c743447c31901f8c2f6fd4939e5871c5bdca81b9575ea2c46db5a7",
+    "diagnostics/seed1001_lambda0/training_loss_summary.json": "ae3c496a512608e2fd20c25bd189e9932e222bf3a828fb6dd42ffcfe7c7cba0e",
+    "natural/frozen_seed42/kodak_frame_metrics.csv": "cd2226cd6848d7d61e9eb54ded386ec87b82da9ca9509bc1f92e3d2248c56fe5",
+    "natural/frozen_seed42/summary.json": "06b37003132ed720b7502fa9b7ed2f3b0a2d7fa86f89d82f22ead70eaf450f7a",
+    "natural/seed1001_lambda0.2/kodak_frame_metrics.csv": "5cd395063cd33834bbd1c2bffc8614c18f8f1a20f5a76a7517fa282ffd013d45",
+    "natural/seed1001_lambda0.2/summary.json": "3884d9212ba5df45895ef56affdcad108f6bbaa5a5c32c6c49bf600f8b8b9151",
+    "protocol/global/summary.json": "b9be73f8ccaa039719702468f6df4eab66603b2f94e65b2b3f2912e16c4979c9"
+  },
+  "observation_units": {
+    "attack_budget": "best validation checkpoint available along one trajectory at each epoch limit",
+    "channel": "same source images; codec, draw and interface are explicit",
+    "cifar": "3600 source images reused across conditions; cells are conditional measurements, not independent image samples",
+    "natural": "24 complete Kodak frames reused across predictors and codecs",
+    "timing": "component medians and derived sums are distinct"
+  },
+  "run_signature": "ad3aaee21cd78c8a1a84edf9cce6b4f214da0c496eae0a46c2bd0a6db8846135",
+  "schema_version": 1,
+  "tables": [
+    {
+      "file": "attack_attributes.csv",
+      "rows": 24,
+      "sha256": "331bde9c4520f31f5708720cba84f47110f70c548f4f937dff99cb9a2dddfe88"
+    },
+    {
+      "file": "attack_binary.csv",
+      "rows": 8,
+      "sha256": "76c845545549fa65967713f02d5bf8059c2cda2e8c43342bdbcac56b035b1ac2"
+    },
+    {
+      "file": "attack_budget.csv",
+      "rows": 72,
+      "sha256": "6c2eaa61cc0c7b74706f386073867d368bbbc99097e2241982a96f00ef6b4276"
+    },
+    {
+      "file": "attack_candidates.csv",
+      "rows": 204,
+      "sha256": "faddaf2e940ace54b68b764045b53f658b4f851858cf1d6cf36e2d722afa2138"
+    },
+    {
+      "file": "attack_controls.csv",
+      "rows": 48,
+      "sha256": "49664d03a7f098416cd6670ed62d85bbe26132e4338237e2a261d4e91e23960c"
+    },
+    {
+      "file": "attack_fitting.csv",
+      "rows": 174,
+      "sha256": "43f681cb4724d3f373dd501f24c55c771bd67a7a4bd2b8ae5564226bb133e99e"
+    },
+    {
+      "file": "attack_packet_sets.csv",
+      "rows": 20,
+      "sha256": "da59d8cca8b9c026429680fbdfb80ca41221da6fb2b3d921593a59a34ad89bf4"
+    },
+    {
+      "file": "attack_selected.csv",
+      "rows": 24,
+      "sha256": "fcfb6092cf88c7ec5fd8f025693c7b37fe13b4a871ad783dc8a05001703cab9c"
+    },
+    {
+      "file": "attack_snr.csv",
+      "rows": 126,
+      "sha256": "abffada4e2bb8c8ce1f2457b84bd5cf8324d202e98572562cf3ef81c06557b8a"
+    },
+    {
+      "file": "channel_outcomes.csv",
+      "rows": 1008,
+      "sha256": "e0e26bc8f87370f67c909d44416a25d589ca612ba98048e64d6bdf39c3067290"
+    },
+    {
+      "file": "codec_loss_diagnostics.csv",
+      "rows": 6,
+      "sha256": "75f956ddabf158ac8e4907c15523757f5b891e54a28cf6d1b6b5c76832d6c400"
+    },
+    {
+      "file": "header_reliability.csv",
+      "rows": 18,
+      "sha256": "b001e76e68616a4d518c28c35d7843a6b2099fc5bb0b54a88ba875833f5cb0a4"
+    },
+    {
+      "file": "header_resources.csv",
+      "rows": 8,
+      "sha256": "e9f45acceb42b7524d4725614458dec3f98a621a0049f36d9f31484bc063f744"
+    },
+    {
+      "file": "image_priors.csv",
+      "rows": 12,
+      "sha256": "9a062346c2b76a7ad2ea4ca19a633aecc703468bbba41ee1190ca734fc726023"
+    },
+    {
+      "file": "natural_frames.csv",
+      "rows": 384,
+      "sha256": "5f139ed29273b47991a0896b2b87d361837402ed7c6b3417515b18eb7c6384ba"
+    },
+    {
+      "file": "natural_selections.csv",
+      "rows": 10,
+      "sha256": "b4817ffed5dd28ae82c2fd830360fa43d8481a79e7fd89719653fc78d95274eb"
+    },
+    {
+      "file": "natural_summary.csv",
+      "rows": 16,
+      "sha256": "fcbc1e7975def48ce3fa91ab17fc1f09b3f33a3ecaddd2ed75b4cbf47187d745"
+    },
+    {
+      "file": "protection_operating_points.csv",
+      "rows": 192,
+      "sha256": "1b91f86ff6a258a97496cc35f3fa29a328b3d796d66a430db96ad4fec4f46cfe"
+    },
+    {
+      "file": "protection_timings.csv",
+      "rows": 8,
+      "sha256": "92da377ad57484c8230af2758f4bc8bd8210c5c00bcb446c593a6022bfbebab2"
+    },
+    {
+      "file": "protocol_processing.csv",
+      "rows": 8,
+      "sha256": "f4f2fe01a5dd01db980d5fec34df67f0bad7ee4d44a6149470c511d5bbadfcb1"
+    },
+    {
+      "file": "protocol_timings.csv",
+      "rows": 20,
+      "sha256": "1213bb50537ebeba591c7c73883882baa5fe9299bfc30e2b4c62b7cd045c948a"
+    },
+    {
+      "file": "reuse_averaging.csv",
+      "rows": 28,
+      "sha256": "fd6e66f081c9893f18822f2a37968f50182c717d96e43342ba02351bf9734ee5"
+    },
+    {
+      "file": "reuse_recovery.csv",
+      "rows": 148,
+      "sha256": "71057c783bbf374536578bfc3cad01a2daf6e10bf375ab2798c9ba456cbb78ea"
+    },
+    {
+      "file": "experiment_config.json",
+      "sha256": "2649d2fa3c98e152139a51a174db84f862b1d5e91fef1f25df920cc5fe1499ce"
+    },
+    {
+      "file": "protocol_checks.json",
+      "sha256": "861b72b5cf3f85226badd22aa22a5860b08f0dec0503be5bf9dad031b1e07ff1"
+    }
+  ]
+}

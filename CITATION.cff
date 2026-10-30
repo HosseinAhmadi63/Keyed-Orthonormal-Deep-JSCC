@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software when using its implementation or numerical records."
 type: software
-title: "Keyed Orthonormal Deep JSCC"
+title: "Keyed Orthonormal Latent Scrambling for Wireless Image Transmission with Deep JSCC"
 authors:
   - family-names: Ahmadi
     given-names: Hossein
@@ -11,6 +11,7 @@ authors:
     given-names: Amirhossein
   - family-names: Kuhestani
     given-names: Ali
-version: 1.0.0
+version: 1.1.0
+date-released: 2026-10-30
 license: MIT
 repository-code: "https://github.com/HosseinAhmadi63/Keyed-Orthonormal-Deep-JSCC"

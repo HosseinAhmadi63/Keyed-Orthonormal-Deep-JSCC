@@ -1,0 +1,9 @@
+group_size,authenticated_metadata,information_bits_per_header,hamming_coded_bits,qpsk_header_uses,payload_uses_per_image,total_complex_uses_per_image,header_overhead_fraction,frame_384_tiles_complex_uses,preamble_pilots_and_payload_integrity_included
+1,False,128,256,128,128,256.0,1.0,98304.0,False
+1,True,256,512,256,128,384.0,2.0,147456.0,False
+8,False,128,256,128,128,144.0,0.125,55296.0,False
+8,True,256,512,256,128,160.0,0.25,61440.0,False
+32,False,128,256,128,128,132.0,0.03125,50688.0,False
+32,True,256,512,256,128,136.0,0.0625,52224.0,False
+128,False,128,256,128,128,129.0,0.0078125,49536.0,False
+128,True,256,512,256,128,130.0,0.015625,49920.0,False

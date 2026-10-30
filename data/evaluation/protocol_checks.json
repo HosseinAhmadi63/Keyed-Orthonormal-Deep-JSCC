@@ -1,0 +1,13 @@
+{
+  "counter_exhaustion_rejected": true,
+  "crc_is_forgeable_error_detection_only": true,
+  "dropped_group_does_not_desynchronize_later_group": true,
+  "per_slot_nonce_matches_allocator_policy": true,
+  "receiver_restart_replay_rejected": true,
+  "replay_rejected": true,
+  "restart_reservations_disjoint": true,
+  "sender_namespaces_disjoint": true,
+  "single_bit_tampering_rejected": true,
+  "tamper_trials": 256,
+  "unused_reservation_burned": true
+}
